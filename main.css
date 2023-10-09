@@ -69,8 +69,7 @@ body {
     hsl(195deg 53% 79%) 87%
   );
   background-attachment: fixed;
-  height: 100%;
-  height: -webkit-fill-available;
+  height: 100vh;
   font-family: "Figtree", sans-serif;
   display: flex;
   flex-direction: column;
@@ -170,8 +169,8 @@ p {
 }
 
 footer {
-  margin-top: auto;
-  margin-bottom: 2%;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 /* https://www.joshwcomeau.com/css/introducing-shadow-palette-generator/ */

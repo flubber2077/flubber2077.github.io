@@ -69,7 +69,8 @@ body {
     hsl(195deg 53% 79%) 87%
   );
   background-attachment: fixed;
-  height: calc(100vh - env(safe-area-inset-bottom));
+  height: 100%;
+  height: -webkit-fill-available;
   font-family: "Figtree", sans-serif;
   display: flex;
   flex-direction: column;

@@ -185,3 +185,28 @@ footer {
     13px 16.6px 20.9px -2.3px hsl(var(--shadow-color) / 0.2),
     36.4px 46.6px 58.5px -3.4px hsl(var(--shadow-color) / 0.16);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(
+    -0.08rad,
+    hsl(240, 100%, 5%) 0%,
+    hsl(222, 100%, 21%) 87%
+  );
+  }
+  h1, p {
+    color:hwb(180 90% 0%);
+  }
+
+  li {
+    background-color: hsla(142, 52%, 51%, 0.7);
+  }
+
+  li p {
+    color: black;
+  }
+
+  .logo {
+    filter: brightness(100%);
+  }
+}

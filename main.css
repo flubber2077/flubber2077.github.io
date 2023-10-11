@@ -173,8 +173,8 @@ p {
 }
 
 footer {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: auto;
+  margin-bottom: 25px;
 }
 
 /* https://www.joshwcomeau.com/css/introducing-shadow-palette-generator/ */
